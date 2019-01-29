@@ -22,8 +22,7 @@ server.get('/superscript', (req, res) => {
 
 const options = {
   logPath: null,
-  mongoURI: process.env.MONGO_URI || 'mongodb://localhost:5000/superscriptdb',
-  MONGODB_URI: "mongodb://heroku_wx3317kg:go8pt9am4r7lcc2omc27v95fcc@ds161724.mlab.com:61724/heroku_wx3317kg",
+  mongoURI: process.env.MONGO_URI || 'mongodb://localhost:5000/superscriptdb' || "mongodb://heroku_wx3317kg:go8pt9am4r7lcc2omc27v95fcc@ds161724.mlab.com:61724/heroku_wx3317kg",
   factSystem: {
     clean: true,
   },
