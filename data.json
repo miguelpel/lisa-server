@@ -8,12 +8,13 @@
             "keywords": [],
             "filter": null,
             "gambits": [
-                "4PgK3apZ"
+                "iNeKou8Q",
+                "eiZNmSkM"
             ]
         }
     },
     "gambits": {
-        "4PgK3apZ": {
+        "iNeKou8Q": {
             "trigger": {
                 "flags": {},
                 "filter": "^hasTag('hello')",
@@ -22,12 +23,23 @@
                 "clean": "\\s*((?:[^\\s]+\\s+){0,1}(?:[^\\s]+)?)\\s*"
             },
             "replies": [
-                "1aVKS2ol",
-                "scg9DLzH",
-                "X6uy0H5l",
-                "cPV6vM1h",
-                "D508SRXF",
-                "8lLWiZ9p"
+                "1nU2Yu1f",
+                "yHYPD3dN"
+            ],
+            "conditional": null,
+            "conversation": null,
+            "topic": "random"
+        },
+        "eiZNmSkM": {
+            "trigger": {
+                "flags": {},
+                "filter": null,
+                "question": false,
+                "raw": "How are you",
+                "clean": "How are you"
+            },
+            "replies": [
+                "cD6rlvAS"
             ],
             "conditional": null,
             "conversation": null,
@@ -35,39 +47,24 @@
         }
     },
     "replies": {
-        "1aVKS2ol": {
-            "string": "Hi!",
-            "filter": null,
-            "keep": false
-        },
-        "scg9DLzH": {
-            "string": "Hi, how are you?",
-            "filter": null,
-            "keep": false
-        },
-        "X6uy0H5l": {
-            "string": "How are you?",
-            "filter": null,
-            "keep": false
-        },
-        "cPV6vM1h": {
+        "1nU2Yu1f": {
             "string": "Hello",
             "filter": null,
             "keep": false
         },
-        "D508SRXF": {
-            "string": "Howdy",
+        "yHYPD3dN": {
+            "string": "Howdy ?",
             "filter": null,
             "keep": false
         },
-        "8lLWiZ9p": {
-            "string": "Ola",
+        "cD6rlvAS": {
+            "string": "I'm fine",
             "filter": null,
             "keep": false
         }
     },
     "checksums": {
-        "./chat/main.ss": "39cbc28aebe38e26c8cf1b42243f1d6beb6eccb6"
+        "./chat/main.ss": "4547da88479d42da59385e65319bb610ec719628"
     },
     "version": 1
 }

@@ -5,6 +5,12 @@ import bodyParser from 'body-parser';
 const server = express();
 const PORT = process.env.PORT || 5000;
 
+const options = {
+  logPath: null,
+  mongoURI: process.env.MONGO_URI || 'mongodb://localhost:5000/superscriptdb'
+};
+
+
 server.use(bodyParser.json());
 
 let bot;

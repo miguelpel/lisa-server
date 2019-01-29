@@ -1,1 +1,5 @@
 {"user_id":"user1","raw_input":"hi","normalized_input":"hi","matched_gambit":[{"topic":"random","input":"*~2","reply":"Hi!","output":"Hi!"}],"timestamp":"2019-01-27T16:20:51.261Z"}
+{"user_id":"user1","raw_input":"hi","normalized_input":"hi","matched_gambit":[{"topic":"random","input":"*~2","reply":"Howdy ?","output":"Howdy ?"}],"timestamp":"2019-01-29T13:43:18.090Z"}
+{"user_id":"user1","raw_input":"\"how are you\"","normalized_input":"how are you","matched_gambit":[{"topic":"random","input":"How are you","reply":"I'm fine","output":"I'm fine"}],"timestamp":"2019-01-29T13:43:38.749Z"}
+{"user_id":"user1","raw_input":"hi","normalized_input":"hi","matched_gambit":[{"topic":"random","input":"*~2","reply":"Hello","output":"Hello"}],"timestamp":"2019-01-29T15:00:54.824Z"}
+{"user_id":"user1","raw_input":"\"how are you\"","normalized_input":"how are you","matched_gambit":[{"topic":"random","input":"How are you","reply":"I'm fine","output":"I'm fine"}],"timestamp":"2019-01-29T15:01:07.068Z"}
