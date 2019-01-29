@@ -32,7 +32,7 @@ server.get('/superscript', (req, res) => {
 
 const options = {
   logPath: null,
-  mongoURI: process.env.MONGOBD_URI || 'mongodb://localhost:5000/superscriptdb',
+  mongoURI: process.env.MONGODB_URI || 'mongodb://localhost:5000/superscriptdb',
   factSystem: {
     clean: true,
   },
