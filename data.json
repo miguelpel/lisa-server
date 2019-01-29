@@ -8,13 +8,13 @@
             "keywords": [],
             "filter": null,
             "gambits": [
-                "iNeKou8Q",
-                "eiZNmSkM"
+                "DKKeXZGz",
+                "EnWsp3mC"
             ]
         }
     },
     "gambits": {
-        "iNeKou8Q": {
+        "DKKeXZGz": {
             "trigger": {
                 "flags": {},
                 "filter": "^hasTag('hello')",
@@ -23,14 +23,14 @@
                 "clean": "\\s*((?:[^\\s]+\\s+){0,1}(?:[^\\s]+)?)\\s*"
             },
             "replies": [
-                "1nU2Yu1f",
-                "yHYPD3dN"
+                "QxyFb8qG",
+                "9lwOyBk4"
             ],
             "conditional": null,
             "conversation": null,
             "topic": "random"
         },
-        "eiZNmSkM": {
+        "EnWsp3mC": {
             "trigger": {
                 "flags": {},
                 "filter": null,
@@ -39,7 +39,7 @@
                 "clean": "How are you"
             },
             "replies": [
-                "cD6rlvAS"
+                "AuIL5zc7"
             ],
             "conditional": null,
             "conversation": null,
@@ -47,17 +47,17 @@
         }
     },
     "replies": {
-        "1nU2Yu1f": {
+        "QxyFb8qG": {
             "string": "Hello",
             "filter": null,
             "keep": false
         },
-        "yHYPD3dN": {
+        "9lwOyBk4": {
             "string": "Howdy ?",
             "filter": null,
             "keep": false
         },
-        "cD6rlvAS": {
+        "AuIL5zc7": {
             "string": "I'm fine",
             "filter": null,
             "keep": false
