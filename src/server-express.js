@@ -1,6 +1,7 @@
 import superscript from 'superscript';
 import express from 'express';
 import bodyParser from 'body-parser';
+import cors from 'cors'
 
 const server = express();
 const PORT = process.env.PORT || 5000;
@@ -9,7 +10,26 @@ server.use(bodyParser.json());
 
 let bot;
 
-server.get('/superscript', (req, res) => {
+// const corsOptions = {
+//   origin: 'http://localhost:3000'
+// }
+
+// server.use(cors())
+
+
+// var cors = require('cors');
+
+var corsOptions = {
+  origin: '*',
+  methods: ['GET'],
+  maxAge: 3600,
+  enablePreflight: true
+};
+
+//server.options('*', cors())
+
+server.options('/superscript', cors(corsOptions));
+server.get('/superscript', cors(corsOptions), (req, res) => {
   if (req.query.message) {
     return bot.reply('user1', req.query.message, (err, reply) => {
       res.json({
