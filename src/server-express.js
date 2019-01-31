@@ -12,7 +12,7 @@ let bot;
 
 // change origin for 'https://lisa-client.netlify.com' for production
 var corsOptions = {
-  origin: '*',
+  origin: 'http://localhost:3000',
   methods: ['GET'],
   maxAge: 3600,
   enablePreflight: true
