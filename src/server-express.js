@@ -10,15 +10,7 @@ server.use(bodyParser.json());
 
 let bot;
 
-// const corsOptions = {
-//   origin: 'http://localhost:3000'
-// }
-
-// server.use(cors())
-
-
-// var cors = require('cors');
-
+// change origin for 'https://lisa-client.netlify.com' for production
 var corsOptions = {
   origin: '*',
   methods: ['GET'],
@@ -26,13 +18,12 @@ var corsOptions = {
   enablePreflight: true
 };
 
-//server.options('*', cors())
-
 server.options('/superscript', cors(corsOptions));
 server.get('/superscript', cors(corsOptions), (req, res) => {
   if (req.query.message) {
     return bot.reply('user1', req.query.message, (err, reply) => {
       res.json({
+        userName: 'Lisa',
         message: reply.string,
       });
     });
