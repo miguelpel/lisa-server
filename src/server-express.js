@@ -21,8 +21,9 @@ var corsOptions = {
 server.options('/superscript', cors(corsOptions));
 server.get('/superscript', cors(corsOptions), (req, res) => {
   if (req.query.message) {
-    return bot.reply('user1', req.query.message, (err, reply) => {
+    return bot.reply(req.query.user, req.query.message, (err, reply) => {
       res.json({
+        to: req.query.user,
         userName: 'Lisa',
         message: reply.string,
       });
