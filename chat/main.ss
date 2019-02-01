@@ -2,8 +2,8 @@
 - Hello
 - Howdy ?
 
-+ How are you ?
++ How are you *
 - I'm fine
 
 + *
-- so far I'm not fiished, so I understand 'Hello' and all, and 'How are you'
+- so far I'm not finished, so I understand 'Hello' and all, and 'How are you'
