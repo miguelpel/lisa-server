@@ -8,13 +8,14 @@
             "keywords": [],
             "filter": null,
             "gambits": [
-                "TmKZVdga",
-                "OEywAWl1"
+                "zwcb561i",
+                "Jh4fVOYq",
+                "zc5LGUvc"
             ]
         }
     },
     "gambits": {
-        "TmKZVdga": {
+        "zwcb561i": {
             "trigger": {
                 "flags": {},
                 "filter": "^hasTag('hello')",
@@ -23,23 +24,38 @@
                 "clean": "\\s*((?:[^\\s]+\\s+){0,1}(?:[^\\s]+)?)\\s*"
             },
             "replies": [
-                "7GyEN1pZ",
-                "REMwiFhm"
+                "Py1jzBeN",
+                "IbRhOk4x"
             ],
             "conditional": null,
             "conversation": null,
             "topic": "random"
         },
-        "OEywAWl1": {
+        "Jh4fVOYq": {
             "trigger": {
                 "flags": {},
                 "filter": null,
                 "question": false,
-                "raw": "How are you",
-                "clean": "How are you"
+                "raw": "How are you ?",
+                "clean": "How are you \\?"
             },
             "replies": [
-                "7T5eVQ12"
+                "LsZcG6rf"
+            ],
+            "conditional": null,
+            "conversation": null,
+            "topic": "random"
+        },
+        "zc5LGUvc": {
+            "trigger": {
+                "flags": {},
+                "filter": null,
+                "question": false,
+                "raw": "*",
+                "clean": "(?:(?=^|\\s)\\s*(?:.*)(?=\\s|$)\\s*)?"
+            },
+            "replies": [
+                "SzZukPMQ"
             ],
             "conditional": null,
             "conversation": null,
@@ -47,24 +63,29 @@
         }
     },
     "replies": {
-        "7GyEN1pZ": {
+        "Py1jzBeN": {
             "string": "Hello",
             "filter": null,
             "keep": false
         },
-        "REMwiFhm": {
+        "IbRhOk4x": {
             "string": "Howdy ?",
             "filter": null,
             "keep": false
         },
-        "7T5eVQ12": {
+        "LsZcG6rf": {
             "string": "I'm fine",
+            "filter": null,
+            "keep": false
+        },
+        "SzZukPMQ": {
+            "string": "so far I'm not fiished, so I understand 'Hello' and all, and 'How are you'",
             "filter": null,
             "keep": false
         }
     },
     "checksums": {
-        "./chat/main.ss": "4547da88479d42da59385e65319bb610ec719628"
+        "./chat/main.ss": "63a1edc61af28f140fe01b237965f0b9b8d25936"
     },
     "version": 1
 }
