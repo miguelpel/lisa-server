@@ -1,9 +1,9 @@
 + {^hasTag('hello')} *~2
-- Hello
+- Hello \n My name is Lisa. I'm a chatbot under development created by Miguel Pelleterat
 - Howdy ?
 
 + How are you *
 - I'm fine
 
 + *
-- so far I'm not finished, so I understand 'Hello' and all, and 'How are you'
+- So far, We are on a robust front-end / back-end code, so my conversational abilities (the fun part) are still pending

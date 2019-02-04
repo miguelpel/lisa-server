@@ -8,14 +8,14 @@
             "keywords": [],
             "filter": null,
             "gambits": [
-                "4iBOAG06",
-                "KaZ2RfBd",
-                "F9mIRsrC"
+                "J6unjDSP",
+                "bP0I9tDo",
+                "B6gVDloE"
             ]
         }
     },
     "gambits": {
-        "4iBOAG06": {
+        "J6unjDSP": {
             "trigger": {
                 "flags": {},
                 "filter": "^hasTag('hello')",
@@ -24,14 +24,14 @@
                 "clean": "\\s*((?:[^\\s]+\\s+){0,1}(?:[^\\s]+)?)\\s*"
             },
             "replies": [
-                "pBvPRbYk",
-                "fOGK1c1A"
+                "LynhmALd",
+                "VO3dKJDb"
             ],
             "conditional": null,
             "conversation": null,
             "topic": "random"
         },
-        "KaZ2RfBd": {
+        "bP0I9tDo": {
             "trigger": {
                 "flags": {},
                 "filter": null,
@@ -40,13 +40,13 @@
                 "clean": "How are you(?:(?=^|\\s)\\s*(?:.*)(?=\\s|$)\\s*)?"
             },
             "replies": [
-                "jZwNk6cp"
+                "tOVVJamM"
             ],
             "conditional": null,
             "conversation": null,
             "topic": "random"
         },
-        "F9mIRsrC": {
+        "B6gVDloE": {
             "trigger": {
                 "flags": {},
                 "filter": null,
@@ -55,7 +55,7 @@
                 "clean": "(?:(?=^|\\s)\\s*(?:.*)(?=\\s|$)\\s*)?"
             },
             "replies": [
-                "fbWUAQB1"
+                "IZvIjuVm"
             ],
             "conditional": null,
             "conversation": null,
@@ -63,29 +63,29 @@
         }
     },
     "replies": {
-        "pBvPRbYk": {
-            "string": "Hello",
+        "LynhmALd": {
+            "string": "Hello \\n My name is Lisa. I'm a chatbot under development created by Miguel Pelleterat",
             "filter": null,
             "keep": false
         },
-        "fOGK1c1A": {
+        "VO3dKJDb": {
             "string": "Howdy ?",
             "filter": null,
             "keep": false
         },
-        "jZwNk6cp": {
+        "tOVVJamM": {
             "string": "I'm fine",
             "filter": null,
             "keep": false
         },
-        "fbWUAQB1": {
-            "string": "so far I'm not finished, so I understand 'Hello' and all, and 'How are you'",
+        "IZvIjuVm": {
+            "string": "So far, We are on a robust front-end / back-end code, so my conversational abilities (the fun part) are still pending",
             "filter": null,
             "keep": false
         }
     },
     "checksums": {
-        "./chat/main.ss": "76e208f43e24bf731269e0b4628a99614787e7c4"
+        "./chat/main.ss": "f8084660d7008377322dc42a62a7fb4b31ee0181"
     },
     "version": 1
 }

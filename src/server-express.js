@@ -10,9 +10,10 @@ server.use(bodyParser.json());
 
 let bot;
 
-// change origin for 'https://lisa-client.netlify.com' for production
+// change origin for 'http://localhost:3000' for dev,
+// and 'https://lisa-client.netlify.com' for production
 var corsOptions = {
-  origin: 'http://localhost:3000',
+  origin: 'https://lisa-client.netlify.com',
   methods: ['GET'],
   maxAge: 3600,
   enablePreflight: true
