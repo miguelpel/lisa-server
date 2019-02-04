@@ -7,3 +7,6 @@
 
 + *
 - So far, We are on a robust front-end / back-end code, so my conversational abilities (the fun part) are still pending
+
++ * find love ?
+- 42

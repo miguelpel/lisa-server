@@ -8,14 +8,15 @@
             "keywords": [],
             "filter": null,
             "gambits": [
-                "J6unjDSP",
-                "bP0I9tDo",
-                "B6gVDloE"
+                "lfJLkBjj",
+                "FppsGfO6",
+                "YoaO9SgM",
+                "9rfai8Kx"
             ]
         }
     },
     "gambits": {
-        "J6unjDSP": {
+        "lfJLkBjj": {
             "trigger": {
                 "flags": {},
                 "filter": "^hasTag('hello')",
@@ -24,14 +25,14 @@
                 "clean": "\\s*((?:[^\\s]+\\s+){0,1}(?:[^\\s]+)?)\\s*"
             },
             "replies": [
-                "LynhmALd",
-                "VO3dKJDb"
+                "1w9qSgVX",
+                "sTpNCXgA"
             ],
             "conditional": null,
             "conversation": null,
             "topic": "random"
         },
-        "bP0I9tDo": {
+        "FppsGfO6": {
             "trigger": {
                 "flags": {},
                 "filter": null,
@@ -40,13 +41,13 @@
                 "clean": "How are you(?:(?=^|\\s)\\s*(?:.*)(?=\\s|$)\\s*)?"
             },
             "replies": [
-                "tOVVJamM"
+                "oFYD8PW7"
             ],
             "conditional": null,
             "conversation": null,
             "topic": "random"
         },
-        "B6gVDloE": {
+        "YoaO9SgM": {
             "trigger": {
                 "flags": {},
                 "filter": null,
@@ -55,7 +56,22 @@
                 "clean": "(?:(?=^|\\s)\\s*(?:.*)(?=\\s|$)\\s*)?"
             },
             "replies": [
-                "IZvIjuVm"
+                "9rS5pKoD"
+            ],
+            "conditional": null,
+            "conversation": null,
+            "topic": "random"
+        },
+        "9rfai8Kx": {
+            "trigger": {
+                "flags": {},
+                "filter": null,
+                "question": false,
+                "raw": "* find love ?",
+                "clean": "(?:(?=^|\\s)\\s*(?:.*)(?=\\s|$)\\s*)?find love \\?"
+            },
+            "replies": [
+                "YGLL4YP2"
             ],
             "conditional": null,
             "conversation": null,
@@ -63,29 +79,34 @@
         }
     },
     "replies": {
-        "LynhmALd": {
+        "1w9qSgVX": {
             "string": "Hello \\n My name is Lisa. I'm a chatbot under development created by Miguel Pelleterat",
             "filter": null,
             "keep": false
         },
-        "VO3dKJDb": {
+        "sTpNCXgA": {
             "string": "Howdy ?",
             "filter": null,
             "keep": false
         },
-        "tOVVJamM": {
+        "oFYD8PW7": {
             "string": "I'm fine",
             "filter": null,
             "keep": false
         },
-        "IZvIjuVm": {
+        "9rS5pKoD": {
             "string": "So far, We are on a robust front-end / back-end code, so my conversational abilities (the fun part) are still pending",
+            "filter": null,
+            "keep": false
+        },
+        "YGLL4YP2": {
+            "string": "42",
             "filter": null,
             "keep": false
         }
     },
     "checksums": {
-        "./chat/main.ss": "f8084660d7008377322dc42a62a7fb4b31ee0181"
+        "./chat/main.ss": "16b9297d0daf84c3b7135494c364c27386c1982c"
     },
     "version": 1
 }
